@@ -1,0 +1,8 @@
+SCRIPT
+	rank = 3000
+	rank = 2500
+	rank = 2000
+	rank = 1500
+	rank = 1000
+	now = 0
+END_SCRIPT

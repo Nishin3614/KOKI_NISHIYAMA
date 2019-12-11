@@ -1,0 +1,21 @@
+#=============================
+#
+# セーブ素材
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[01]:オレンジ木----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -100.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_MATERIALSSET
+    ----------[02]:赤木----------
+    MATERIALSSET
+        TYPE = 2
+        POS = 100.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_MATERIALSSET
+END_SCRIPT

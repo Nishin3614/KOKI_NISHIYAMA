@@ -1,0 +1,13 @@
+#---------------------------------------------
+# テクスチャのファイル情報
+#---------------------------------------------
+SCRIPT
+
+NUMBER = 2
+
+FILENAME = DATA\TEXTURE\GameBG.png
+
+FILENAME = DATA\TEXTURE\にゃんこ.jpg
+
+END_SCRIPT
+

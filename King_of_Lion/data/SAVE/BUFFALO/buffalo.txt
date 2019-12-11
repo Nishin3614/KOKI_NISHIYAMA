@@ -1,0 +1,29 @@
+#=============================
+#
+# ÉZÅ[Éuëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    BUFFALOSET
+        POS = 300.0 0.0 -2800.0
+        ROT = 0.0 0.0 0.0
+    END_BUFFALOSET
+    BUFFALOSET
+        POS = 300.0 0.0 -3600.0
+        ROT = 0.0 0.0 0.0
+    END_BUFFALOSET
+    BUFFALOSET
+        POS = -700.0 0.0 -3700.0
+        ROT = 0.0 0.0 0.0
+    END_BUFFALOSET
+    BUFFALOSET
+        POS = -600.0 0.0 -3000.0
+        ROT = 0.0 0.0 0.0
+    END_BUFFALOSET
+    BUFFALOSET
+        POS = -2600.0 0.0 -3000.0
+        ROT = 0.0 0.0 0.0
+    END_BUFFALOSET
+END_SCRIPT

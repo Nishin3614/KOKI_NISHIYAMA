@@ -1,0 +1,75 @@
+#=============================
+#
+# ロードキリンモデル
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:体----------
+    GIRAFFESET
+        PARENT = -1
+        POS = 0.0 23.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[01]:首の根元の関節----------
+    GIRAFFESET
+        PARENT = 0
+        POS = 0.0 5.0 -35.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[02]:首----------
+    GIRAFFESET
+        PARENT = 1
+        POS = 0.0 33.0 -20.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[03]:首の先端の関節----------
+    GIRAFFESET
+        PARENT = 2
+        POS = 0.0 -5.0 5.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[04]:頭----------
+    GIRAFFESET
+        PARENT = 3
+        POS = 0.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[05]:右手----------
+    GIRAFFESET
+        PARENT = 0
+        POS = -5.0 -5.0 -25.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[06]:左手----------
+    GIRAFFESET
+        PARENT = 0
+        POS = 5.0 -5.0 -25.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[07]:右足----------
+    GIRAFFESET
+        PARENT = 0
+        POS = -5.0 -5.0 -15.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[08]:左足----------
+    GIRAFFESET
+        PARENT = 0
+        POS = 5.0 -5.0 -15.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    ----------[09]:しっぽの関節----------
+    GIRAFFESET
+        PARENT = 0
+        POS = 0.0 2.0 -2.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+	----------[10]:しっぽ----------
+    GIRAFFESET
+        PARENT = 9
+        POS = 0.0 2.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+END_SCRIPT

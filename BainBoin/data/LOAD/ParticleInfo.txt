@@ -1,0 +1,190 @@
+//-------------------------------------------------
+// パーティクルのオフセット
+// 
+//-------------------------------------------------
+SCRIPT
+
+//-------------------------------------------------
+// ジャンプ
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = -1
+		MIN = -1
+	}
+	IF RADIUSRAND 
+	{
+		MAX = 150
+		MIN = 150
+	}
+	IF ANGLERAND 
+	{
+		MAX = 628
+		MIN = -314
+	}
+	IF SPEEDRAND 
+	{
+		MAX = 20
+		MIN = 10
+	}
+	IF LIFERAND 
+	{
+		MAX = 15
+		MIN = 5
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 1.0 1.0 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = NULL
+	
+	SPEED = NULL
+	
+	LIFE = NULL
+	
+	FRAME = 5
+	
+	NUMBER = 20
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+//-------------------------------------------------
+// ジャンプ衝撃波
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF SPEEDRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 1.0 1.0 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = 20.0
+	
+	SPEED = NULL
+	
+	LIFE = 10
+	
+	FRAME = 1
+	
+	NUMBER = 1
+	
+	TEXTYPE = 1
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+//-------------------------------------------------
+// ゲット
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND 
+	{
+		MAX = 150
+		MIN = 100
+	}
+	IF ANGLERAND 
+	{
+		MAX = 628
+		MIN = -314
+	}
+	IF SPEEDRAND 
+	{
+		MAX = 10
+		MIN = 0
+	}
+	IF LIFERAND 
+	{
+		MAX = 15
+		MIN = 5
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 0.2 0.2 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = NULL
+	
+	SPEED = NULL
+	
+	LIFE = NULL
+	
+	FRAME = 5
+	
+	NUMBER = 20
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+END_SCRIPT

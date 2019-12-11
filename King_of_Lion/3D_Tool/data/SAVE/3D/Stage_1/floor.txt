@@ -1,0 +1,19 @@
+#=============================
+#
+# セーブモデル
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:道１----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+END_SCRIPT

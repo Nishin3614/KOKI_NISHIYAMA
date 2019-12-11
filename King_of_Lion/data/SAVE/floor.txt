@@ -1,0 +1,349 @@
+#=============================
+#
+# ÉZÅ[ÉuÉÇÉfÉã
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 7
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 400.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 7
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -400.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 7
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 500.000 0.000 -800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 2
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -500.000 0.000 -800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 2
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -2400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -500.000 0.000 -2400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 2
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 500.000 0.000 -2400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 2
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 400.000 0.000 -3300.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 8
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -3000.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 5
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -500.000 0.000 -3400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 4
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -400.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 5
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -500.000 0.000 -2900.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 4
+        BLOCK_WIDTH = 4
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -800.000 0.000 -2400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -2000.000 0.000 -3400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 11
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -2000.000 0.000 -3700.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 2
+        BLOCK_WIDTH = 11
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -2000.000 0.000 -3100.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 2
+        BLOCK_WIDTH = 11
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -3200.000 0.000 -3400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -3500.000 0.000 -3700.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 2
+        BLOCK_WIDTH = 4
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -3500.000 0.000 -3100.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 2
+        BLOCK_WIDTH = 4
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -3600.000 0.000 -3400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+	----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 -50.000 -1600.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 7
+        BLOCK_WIDTH = 5
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -1000.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 -1200.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 200.000 0.000 -1200.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 300.000 0.000 -1400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 100.000 0.000 -1800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.001 0.000 -2000.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -399.999 0.000 -1200.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -399.999 0.000 -1500.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = -399.999 0.000 -1800.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.001 0.000 -2200.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 200.000 0.000 -1600.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 150.000
+        ZSIZE = 150.000
+    END_FLOORSET
+END_SCRIPT

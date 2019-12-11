@@ -1,0 +1,45 @@
+#=============================
+#
+# ÉZÅ[Éuëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    GIRAFFESET
+        POS = 100.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = -300.0 0.0 -200.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = -300.0 0.0 300.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = 200.0 0.0 400.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = 200.0 0.0 -200.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = -100.0 0.0 -3100.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = 100.0 0.0 -3600.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = -1700.0 0.0 -3000.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+    GIRAFFESET
+        POS = -2400.0 0.0 -3700.0
+        ROT = 0.0 0.0 0.0
+    END_GIRAFFESET
+END_SCRIPT

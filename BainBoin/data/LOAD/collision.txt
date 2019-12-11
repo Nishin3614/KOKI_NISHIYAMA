@@ -1,0 +1,121 @@
+#=============================
+#
+# ロード素材
+# Author : koki nishiyama
+#
+#=============================
+
+/* ------------------タイプ-------------------- */
+// TYPE_PLAYER	= 0,
+// TYPE_ACTOR	= 1,
+// TYPE_ITEM	= 2,
+// TYPE_WAIT	= 3,
+// TYPE_MAX
+//
+// 動いていないものだけ
+/* ------------------タイプ-------------------- */
+
+SCRIPT
+    ----------[00]:箱::一列目----------
+    COLLISION
+        OBJTYPE = 0
+        POS = 0.000 100.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+      ----------[00]:箱::二列目----------
+    COLLISION
+        OBJTYPE = 0
+        POS = -500.000 400.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+     COLLISION
+        OBJTYPE = 0
+        POS = 500.000 400.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+     ----------[00]:箱::三列目----------
+     COLLISION
+        OBJTYPE = 0
+        POS = 0.000 800.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+      ----------[00]:箱::四列目----------
+     COLLISION
+        OBJTYPE = 0
+        POS = -500.000 1200.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+    COLLISION
+        OBJTYPE = 0
+        POS = 500.000 1200.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+      ----------[00]:箱::五列目----------
+      COLLISION
+        OBJTYPE = 0
+        POS = -800.000 1600.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+    COLLISION
+        OBJTYPE = 0
+        POS = 800.000 1600.000 0.000
+        SIZE = 320.0 100.000 120.000
+    END_COLLISION
+    
+      ----------[00]:箱::六列目----------
+      COLLISION
+        OBJTYPE = 0
+        POS = 0.000 2000.000 0.000
+        SIZE = 1220.0 100.000 120.000
+    END_COLLISION
+     ----------[00]:箱::七列目----------
+       COLLISION
+       OBJTYPE = 0
+        POS = 500.000 2400.000 0.000
+        SIZE = 320.0 100.000 120.000
+     END_COLLISION
+       
+    ----------[00]:箱::八列目----------
+      COLLISION
+         OBJTYPE = 0
+        POS = 000.000 2600.000 0.000
+        SIZE = 320.0 100.000 120.000
+     END_COLLISION
+    
+     ----------[00]:箱::九列目----------
+       COLLISION
+         OBJTYPE = 0
+        POS = -400.000 2800.000 0.000
+        SIZE = 320.0 100.000 120.000
+     END_COLLISION
+    
+     ----------[00]:箱::十列目----------
+      COLLISION
+         OBJTYPE = 0
+        POS = 000.000 3200.000 0.000
+        SIZE = 320.0 100.000 120.000
+      END_COLLISION
+      
+       ----------[00]:箱::十一列目----------
+      COLLISION
+         OBJTYPE = 0
+        POS = 400.000 3400.000 0.000
+        SIZE = 320.0 100.000 120.000
+      END_COLLISION
+      
+      ----------[00]:箱::十二列目----------
+      COLLISION
+         OBJTYPE = 0
+        POS = -100.000 3800.000 0.000
+        SIZE = 520.0 100.000 120.000
+      END_COLLISION
+      
+END_SCRIPT
+

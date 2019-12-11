@@ -1,0 +1,15 @@
+//------------------------------------------------
+// エフェクトの情報
+//------------------------------------------------
+
+SCRIPT
+
+NUMBER = 2
+PASS = data/TEXTURE/Effect/
+
+FILENAME = effect000.jpg
+FILENAME = Effect001.jpg
+
+
+END_SCRIPT
+

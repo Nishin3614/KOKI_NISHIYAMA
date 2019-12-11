@@ -1,0 +1,21 @@
+#=============================
+#
+# ÉZÅ[Éuëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    SHOGIRASET
+        POS = -400.0 0.0 -1200.0
+        ROT = 0.0 0.0 0.0
+    END_SHOGIRASET
+    SHOGIRASET
+        POS = -400.0 0.0 -1500.0
+        ROT = 0.0 0.0 0.0
+    END_SHOGIRASET
+    SHOGIRASET
+        POS = -400.0 0.0 -1800.0
+        ROT = 0.0 0.0 0.0
+    END_SHOGIRASET
+END_SCRIPT

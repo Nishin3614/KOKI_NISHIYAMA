@@ -1,0 +1,105 @@
+#=============================
+#
+# ÉZÅ[Éuëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = 250.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = 0.000 0.000 -3400.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -300.000 0.000 -3100.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = 400.000 0.000 -3000.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = 300.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -500.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -1400.000 0.000 -3000.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -1600.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -1900.000 0.000 -3000.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -2100.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -2400.000 0.000 -3000.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -2700.000 0.000 -3800.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -300.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -300.000 0.000 -200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = 300.000 0.000 -200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = 300.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+END_SCRIPT

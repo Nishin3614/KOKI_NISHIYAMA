@@ -1,0 +1,87 @@
+#=============================
+#
+# ÉçÅ[ÉhïSèbÇÃâ§ÉÇÉfÉã
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:ëÃ----------
+    KING_RIONSET
+        PARENT = -1
+		POS = 0.0 50.0 0.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[01]:ì™ä÷êﬂ----------
+    KING_RIONSET
+        PARENT = 0
+		POS = 0.0 2.0 4.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[02]:ì™----------
+    KING_RIONSET
+        PARENT = 1
+		POS = 0.0 12.0 -10.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[03]:âEòrä÷êﬂ----------
+    KING_RIONSET
+        PARENT = 0
+		POS = -8.0 -9.0 20.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[04]:âEòr----------
+    KING_RIONSET
+        PARENT = 3
+        POS = 0.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[05]:âEòrä÷êﬂ----------
+    KING_RIONSET
+        PARENT = 0
+		POS = 8.0 -9.0 20.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[06]:âEòr----------
+    KING_RIONSET
+        PARENT = 5
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[07]:âEë´ä÷êﬂ----------
+    KING_RIONSET
+        PARENT = 0
+		POS = -8.0 -12.0 40.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[08]:âEë´----------
+    KING_RIONSET
+        PARENT = 7
+        POS = 0.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+    ----------[09]:ç∂ë´ä÷êﬂ----------
+    KING_RIONSET
+        PARENT = 0
+		POS = 8.0 -12.0 40.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+	----------[10]:ç∂ë´----------
+    KING_RIONSET
+        PARENT = 9
+        POS = 0.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+	----------[11]:ÇµÇ¡Ç€ä÷êﬂ----------
+    KING_RIONSET
+		PARENT = 0	
+		POS = 0.0 4.0 64.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+	----------[12]:ÇµÇ¡Ç€----------
+    KING_RIONSET
+		PARENT = 11
+		POS = 0.0 13.0 27.0
+		ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+END_SCRIPT

@@ -1,0 +1,942 @@
+#=============================
+#
+# セーブモデル
+# Author : koki nishiyama
+#
+#=============================
+
+/* ------------------タイプ-------------------- */
+// 	typedef enum
+//	{
+//		TYPE_ROT 	= 0,	// 回転率アップ
+//		TYPE_JUMP 	= 1,	// ジャンプ力アップ
+//		TYPE_COIN 	= 2,	// コイン
+//		TYPE_MAX
+//	} TYPE;
+//
+// 動いていないものだけ
+/* ------------------タイプ-------------------- */
+
+// 個数(生成している個数を代入)
+ROTALL = 3
+JUMPALL = 3
+
+SCRIPT
+   	 ----------回転率----------
+    OBJECTSET
+        TYPE = 0
+        POS = -500.000 1300.0f.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 0
+        POS = 0.000 3300.0f.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 0
+        POS = 500.000 1300.0f.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+   	 ----------ジャンプ力----------
+    OBJECTSET
+        TYPE = 1
+        POS = 0.000 2700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 1
+        POS = 800.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 1
+        POS = -800.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+        
+   		 ----------コイン----------
+    
+    ----------[00]:コイン::一列目----------
+     OBJECTSET
+        TYPE = 2
+        POS = -100.000 200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 100.000 200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 0.000 250.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+       
+      OBJECTSET
+        TYPE = 2
+        POS = 0.000 300.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 350.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 100.000 350.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = -100.000 350.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 400.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 50.000 400.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -50.000 400.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 0.000 450.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     ----------[00]:コイン::二列目----------
+     OBJECTSET
+        TYPE = 2
+        POS = -400.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -500.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -600.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+ OBJECTSET
+        TYPE = 2
+        POS = 400.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 500.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 600.000 500.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      ----------[00]:コイン::三列目----------
+      
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 900.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 100.000 900.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = -100.000 900.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 1000.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 1050.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 1100.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 0.000 1150.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 150.000 1150.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -150.000 1150.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 0.000 1200.000 0.000
+        ROT = 0.000 0.000 0.000
+      SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 100.000 1200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = -100.000 1200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 1250.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 50.000 1250.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -50.000 1250.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 0.000 1300.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     ----------[00]:コイン::四列目----------
+    
+     OBJECTSET
+        TYPE = 2
+        POS = -400.000 1300.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = -600.000 1300.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+       TYPE = 2
+        POS = 400.000 1300.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = 600.000 1300.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+	----------[00]:コイン::五列目----------
+	
+	OBJECTSET
+        TYPE = 2
+        POS = -700.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+     
+    OBJECTSET
+        TYPE = 2
+        POS = -900.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 700.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+      
+    OBJECTSET
+        TYPE = 2
+        POS = 900.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 0.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+     
+    OBJECTSET
+        TYPE = 2
+        POS = -100.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 100.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+      
+    OBJECTSET
+        TYPE = 2
+        POS = 200.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -200.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 300.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -300.000 1800.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 0.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+     
+    OBJECTSET
+        TYPE = 2
+        POS = -100.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 100.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+      
+    OBJECTSET
+        TYPE = 2
+        POS = 200.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -200.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 300.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -300.000 1700.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 0.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+     
+    OBJECTSET
+        TYPE = 2
+        POS = -100.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 100.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+      
+    OBJECTSET
+        TYPE = 2
+        POS = 200.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -200.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 300.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -300.000 1600.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 1500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+     
+    OBJECTSET
+        TYPE = 2
+        POS = -100.000 1500.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 100.000 1500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+      
+    OBJECTSET
+        TYPE = 2
+        POS = 200.000 1500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = -200.000 1500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+         
+       ----------[00]:コイン::六列目----------
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 0.000 2100.000 0.000
+        ROT = 0.000 000.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 100.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 200.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 300.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 400.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 500.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 600.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = -100.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -200.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = -300.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -400.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+        
+    OBJECTSET
+        TYPE = 2
+        POS = -500.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -600.000 2100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+      END_OBJECTSET
+      
+       OBJECTSET
+        TYPE = 2
+        POS = 0.000 2200.000 0.000
+        ROT = 0.000 000.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 100.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 200.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = 300.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 400.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 500.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+     OBJECTSET
+        TYPE = 2
+        POS = 600.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = -100.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -200.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE = 2
+        POS = -300.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -400.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+        
+    OBJECTSET
+        TYPE = 2
+        POS = -500.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = -600.000 2200.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+      END_OBJECTSET
+      
+          
+      ----------[00]:コイン::七列目----------
+      OBJECTSET
+        TYPE = 2
+        POS = 400.000 2500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE = 2
+        POS = 500.000 2500.000 0.000
+        ROT = 0.000 0.000 0.000
+        SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE = 2
+        POS = 600.000 2500.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+ 	----------[00]:コイン::八列目----------
+   	   OBJECTSET
+   	     TYPE = 2
+   	     POS = 100.000 2700.000 0.000
+   	     ROT = 0.000 0.000 0.000
+   	     SIZE = 20.000 20.000 20.000
+   	 END_OBJECTSET
+    
+   	   OBJECTSET
+   	     TYPE = 2
+   	     POS = -100.000 2700.000 0.000
+   	     ROT = 0.000 0.000 0.000
+   	 SIZE = 20.000 20.000 20.000
+   	 END_OBJECTSET
+   	 
+   	  ----------[00]:コイン::九列目----------
+      OBJECTSET
+        TYPE =  2
+        POS = -300.000 2900.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = -400.000 2900.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE =  2
+        POS = -500.000 2900.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    
+     OBJECTSET
+        TYPE =  2
+        POS = -300.000 3000.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = -400.000 3000.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE =  2
+        POS = -500.000 3000.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = -300.000 3100.000 0.000
+        ROT = 0.000 0.000 0.000
+       SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = -400.000 3100.000 0.000
+        ROT = 0.000 0.000 0.000
+         SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+ 
+      OBJECTSET
+        TYPE =  2
+        POS = -500.000 3100.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      ----------[00]:コイン::十列目----------
+      OBJECTSET
+        TYPE =  2
+        POS = 100.000 3300.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = -100.000 3300.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 100.000 3400.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = 0.000 3400.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = -100.000 3400.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = 100.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    OBJECTSET
+        TYPE =  2
+        POS = 0.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = -100.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+    
+     ----------[00]:コイン::十一列目----------
+       OBJECTSET
+        TYPE =  2
+        POS = 400.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 300.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 500.000 3500.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 400.000 3600.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 300.000 3600.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+      OBJECTSET
+        TYPE =  2
+        POS = 500.000 3600.000 0.000
+        ROT = 0.000 0.000 0.000
+ SIZE = 20.000 20.000 20.000
+    END_OBJECTSET
+    
+
+END_SCRIPT

@@ -1,0 +1,13 @@
+#=============================
+#
+# ÉçÅ[ÉhïSèbÇÃâ§
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    KING_RIONSET
+        POS = 0.0 0.0 0.0
+        ROT = 0.0 0.0 0.0
+    END_KING_RIONSET
+END_SCRIPT

@@ -1,0 +1,19 @@
+#=============================
+#
+# セーブモデル
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:湖3----------
+    WATERSET
+        TYPE = 0
+        POS = 0.000 -30.000 -1600.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 1
+        XSIZE = 1350.000
+        ZSIZE = 1400.000
+    END_WATERSET
+END_SCRIPT

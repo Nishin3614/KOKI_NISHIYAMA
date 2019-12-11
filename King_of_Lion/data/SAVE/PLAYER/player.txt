@@ -1,0 +1,69 @@
+#=============================
+#
+# ロードプレイヤー
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:体----------
+    PLAYERSET
+        nParent = -1
+        pos = 0.0 15.0 0.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[01]:頭----------
+    PLAYERSET
+        nParent = 0
+        pos = 0.0 6.0 -25.0
+        rot = 00.0 0.0 0.0
+    END_PLAYERSET
+    ----------[02]:ひげ----------
+    PLAYERSET
+        nParent = 1
+        pos = -0.0 -2.0 2.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[03]:右手----------
+    PLAYERSET
+        nParent = 0
+        pos = 2.5 -2.5 -15.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[04]:左手----------
+    PLAYERSET
+        nParent = 0
+        pos = -2.5 -2.5 -15.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[05]:右足----------
+    PLAYERSET
+        nParent = 0
+        pos = 3.0 -4.5 -7.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[06]:左足----------
+    PLAYERSET
+        nParent = 0
+        pos = -3.0 -4.5 -7.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[07]:しっぽの関節----------
+    PLAYERSET
+        nParent = 0
+        pos = 0.0 1.0 0.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[08]:しっぽ----------
+    PLAYERSET
+        nParent = 7
+        pos = 0.0 5.5 10.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+    ----------[09]:しっぽの先端----------
+    PLAYERSET
+        nParent = 8
+        pos = 0.0 1.5 0.0
+        rot = 0.0 0.0 0.0
+    END_PLAYERSET
+END_SCRIPT

@@ -1,0 +1,59 @@
+#=============================
+#
+# ÉZÅ[ÉuÉÇÉfÉã
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:ìπÇP----------
+    FLOORSET
+        TYPE = 0
+        POS = 0.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 200.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = -200.000 0.000 0.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 1
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 0.000 0.000 400.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+    ----------[01]:ìπÇQ----------
+    FLOORSET
+        TYPE = 1
+        POS = 0.000 0.000 -600.000
+        ROT = 0.000 0.000 0.000
+        BLOCK_DEPTH = 3
+        BLOCK_WIDTH = 3
+        XSIZE = 200.000
+        ZSIZE = 200.000
+    END_FLOORSET
+END_SCRIPT
