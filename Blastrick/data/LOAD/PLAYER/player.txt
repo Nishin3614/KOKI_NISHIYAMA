@@ -1,0 +1,88 @@
+#=============================
+#
+# ロードプレイヤー
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+	CHARACTERSET
+		MOVE = 3.0						# 移動量
+		JUMP = 10.25					# ジャンプ量
+		RADIUS = 20.0					# 半径
+		NUM_PARTS = 10					# パーツ数
+
+		PARTSSET						# [0]体
+			INDEX = 0
+			PARENT = -1					# (親)NULL
+			POS = 0.0 14.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [1]頭
+			INDEX = 1
+			PARENT = 0					# (親)体
+			POS = 0.0 6.0 -25.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [2]ひげ
+			INDEX = 2
+			PARENT = 1					# (親)頭
+			POS = -0.0 -2.0 2.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [3]右手
+			INDEX = 3
+			PARENT = 0					# (親)体
+			POS = 2.5 -2.5 -15.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [4]左手
+			INDEX = 4
+			PARENT = 0					# (親)体
+			POS = -2.5 -2.5 -15.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [5]右足
+			INDEX = 5
+			PARENT = 0					# (親)体
+			POS = 3.0 -4.5 -7.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [6]左足
+			INDEX = 6
+			PARENT = 0					# (親)体
+			POS = -3.0 -4.5 -7.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [7]しっぽの関節
+			INDEX = 7
+			PARENT = 0					# (親)体
+			POS = 0.0 1.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [8]しっぽ
+			INDEX = 8
+			PARENT = 7					# (親)しっぽの関節
+			POS = 0.0 5.5 10.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+
+		PARTSSET						# [9]しっぽの先
+			INDEX = 9
+			PARENT = 8					# (親)しっぽ
+			POS = 0.0 1.5 0.0
+			ROT = 0.0 0.0 0.0
+		END_PARTSSET
+	END_CHARACTERSET
+END_SCRIPT

@@ -1,0 +1,35 @@
+#=============================
+#
+# ÉçÅ[Éhëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:î†----------
+    COLLISION
+        TYPE = 0
+        POS = 0.000 100.000 0.000
+        SIZE = 100.0 100.000 100.000
+    END_COLLISION
+    COLLISION
+        TYPE = 0
+        POS = -100.000 100.000 0.000
+        SIZE = 100.000 100.000 100.000
+    END_COLLISION
+    COLLISION
+        TYPE = 0
+        POS = 100.000 100.000 0.000
+        SIZE = 100.000 100.000 100.000
+    END_COLLISION
+    COLLISION
+        TYPE = 0
+        POS = -400.000 400.000 0.000
+        SIZE = 100.000 100.000 100.000
+    END_COLLISION
+    COLLISION
+        TYPE = 0
+        POS = -500.000 400.000 0.000
+        SIZE = 100.000 100.000 100.000
+    END_COLLISION
+END_SCRIPT

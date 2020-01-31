@@ -1,0 +1,40 @@
+Detected memory leaks!
+Dumping objects ->
+{567} normal block at 0x1A40F2A8, 8 bytes long.
+ Data: < _]     > 08 5F 5D 00 00 00 00 00 
+{566} normal block at 0x1A40F120, 8 bytes long.
+ Data: < a]     > A0 61 5D 00 00 00 00 00 
+{565} normal block at 0x1A40F200, 8 bytes long.
+ Data: < a]     > B0 61 5D 00 00 00 00 00 
+{556} normal block at 0x1A558110, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{549} normal block at 0x1A5580A0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{542} normal block at 0x1A5586C0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{535} normal block at 0x1A557FC0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{528} normal block at 0x1A558B20, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{527} normal block at 0x1A557EE0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{526} normal block at 0x1A557F50, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
+Detected memory leaks!
+Dumping objects ->
+{556} normal block at 0x1A558110, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{549} normal block at 0x1A5580A0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{542} normal block at 0x1A5586C0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{535} normal block at 0x1A557FC0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{528} normal block at 0x1A558B20, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{527} normal block at 0x1A557EE0, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{526} normal block at 0x1A557F50, 68 bytes long.
+ Data: <p .             > 70 93 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.

@@ -1,0 +1,49 @@
+#=============================
+#
+# セーブモデル
+# Author : koki nishiyama
+#
+#=============================
+
+SCRIPT
+    ----------[00]:壁1----------
+    WALLSET
+        TYPE = 0
+        POS = 0.000 0.000 -1000.000
+        ROT = 0.000 3.14 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 8
+        XSIZE = 300.000
+        YSIZE = 500.000
+    END_WALLSET
+    ----------[00]:壁1----------
+    WALLSET
+        TYPE = 0
+        POS = 0.000 0.000 1000.000
+        ROT = 0.000 0.0 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 8
+        XSIZE = 300.000
+        YSIZE = 500.000
+    END_WALLSET
+    ----------[00]:壁1----------
+    WALLSET
+        TYPE = 0
+        POS = 1000.000 0.000 -0.000
+        ROT = 0.000 1.567 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 7
+        XSIZE = 300.000
+        YSIZE = 500.000
+    END_WALLSET
+    ----------[00]:壁1----------
+    WALLSET
+        TYPE = 0
+        POS = -1000.000 0.000 -0.000
+        ROT = 0.000 -1.576 0.000
+        BLOCK_DEPTH = 1
+        BLOCK_WIDTH = 7
+        XSIZE = 300.000
+        YSIZE = 500.000
+    END_WALLSET
+END_SCRIPT

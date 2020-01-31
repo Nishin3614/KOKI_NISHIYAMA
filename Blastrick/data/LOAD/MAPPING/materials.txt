@@ -1,0 +1,51 @@
+#=============================
+#
+# ÉZÅ[Éuëfçﬁ
+# Author : koki nishiyama
+#
+#=============================
+
+OBJ = data/MODEL/materials/00_wood_green.x
+OBJ = data/MODEL/materials/01_wood_Dead.x
+OBJ = data/MODEL/materials/02_wood_orange.x
+OBJ = data/MODEL/materials/03_wood_red.x
+OBJ = data/MODEL/materials/04_wood_yellow.x
+
+SCRIPT
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 4  
+        POS = 100.000 0.000 100.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = 250.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = -300.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = -300.000 0.000 -200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[01]:ñÿ----------
+    MATERIALSSET
+        TYPE = 1
+        POS = 300.000 0.000 -200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+    ----------[02]:ñÿ----------
+    MATERIALSSET
+        TYPE = 2
+        POS = 300.000 0.000 200.000
+        ROT = 0.000 0.000 0.000
+    END_MATERIALSSET
+END_SCRIPT

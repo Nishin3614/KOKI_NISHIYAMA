@@ -1,0 +1,705 @@
+//-------------------------------------------------
+// パーティクルのオフセット
+// 
+//-------------------------------------------------
+SCRIPT
+
+//-------------------------------------------------
+// ジャンプ
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = -1
+		MIN = -1
+	}
+	IF RADIUSRAND 
+	{
+		MAX = 150
+		MIN = 150
+	}
+	IF ANGLERAND 
+	{
+		MAX = 628
+		MIN = -314
+	}
+	IF SPEEDRAND 
+	{
+		MAX = 20
+		MIN = 10
+	}
+	IF LIFERAND 
+	{
+		MAX = 15
+		MIN = 5
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 1.0 1.0 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = NULL
+	
+	SPEED = NULL
+	
+	LIFE = NULL
+	
+	FRAME = 5
+	
+	NUMBER = 20
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+//-------------------------------------------------
+// ジャンプ衝撃波
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF SPEEDRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 1.0 1.0 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = 20.0
+	
+	SPEED = NULL
+	
+	LIFE = 10
+	
+	FRAME = 1
+	
+	NUMBER = 1
+	
+	TEXTYPE = 1
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+//-------------------------------------------------
+// ゲット
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND 
+	{
+		MAX = 150
+		MIN = 100
+	}
+	IF ANGLERAND 
+	{
+		MAX = 628
+		MIN = -314
+	}
+	IF SPEEDRAND 
+	{
+		MAX = 10
+		MIN = 0
+	}
+	IF LIFERAND 
+	{
+		MAX = 15
+		MIN = 5
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 0.2 0.2 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = NULL
+	
+	SPEED = NULL
+	
+	LIFE = NULL
+	
+	FRAME = 5
+	
+	NUMBER = 20
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 0
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+	
+END_OFFSET
+
+//-------------------------------------------------
+// 火の粉
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF SPEEDRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = 1.0 1.0 1.0 1.0
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 10
+	
+	FRAME = 1
+	
+	NUMBER = 1
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 1
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+
+//-------------------------------------------------
+// 星空
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 360
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 100
+	
+	TEXTYPE = 0
+	
+	EFFETYPE = 1
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+//-------------------------------------------------
+// クロス
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF SIZERAND NULL
+	{
+		SIZEX = 0 0
+		SIZEY = 0 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 90
+		MIN = 0
+	}
+	IF SPEEDRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	SIZE = 50.0 50.0
+		
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 2
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = NULL
+END_OFFSET
+//-------------------------------------------------
+// 編み物
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 50
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 50.0f
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 2
+	
+	NUMBER = 20
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = NULL
+END_OFFSET
+//-------------------------------------------------
+// ランダム線
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 360
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 30
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+//-------------------------------------------------
+// ランダム線(中心から)
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 360
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 30
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+//-------------------------------------------------
+// 単線
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 360
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 1
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+//-------------------------------------------------
+// 集中線
+//------------------------------------------------- 
+OFFSET
+	IF POSRAND NULL
+	{
+		POSX = 0 0
+		POSY = 0 0
+		POSZ = 0 0
+	}
+	IF COLRAND
+	{
+		RED
+		GREEN
+		BLUE
+	}
+	IF LENGTHRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF RADIUSRAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	IF ANGLERAND
+	{
+		MAX = 360
+		MIN = 0
+	}
+	IF SPEEDRAND
+	{
+		MAX = 5
+		MIN = 1
+	}
+	IF LIFERAND NULL
+	{
+		MAX = 0
+		MIN = 0
+	}
+	POS = 0.0 0.0 0.0
+	
+	COL = NULL
+	
+	LENGTH = NULL
+	
+	RADIUS = 5.0
+	
+	SPEED = NULL
+	
+	LIFE = 100
+	
+	FRAME = 1
+	
+	NUMBER = 50
+	
+	TEXTYPE = 2
+	
+	EFFETYPE = 3
+	
+	PARTICLETYPE = 0
+	
+	SPEEDRATE = 1.0 1.0 1.0
+END_OFFSET
+END_SCRIPT
